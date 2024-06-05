@@ -1,0 +1,36 @@
+
+body{
+    background-color: azure;
+}
+
+nav.navMenu ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: violet;
+    padding: 20px
+
+}
+
+nav.navMenu ul li{
+    display: inline-block;
+}
+
+nav.navMenu ul li a{
+    text-decoration: none;
+    background-color: rgb(71, 114, 255);
+    color: lightgoldenrodyellow;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+nav.navMenu ul li a:hover{
+    background-color: rgb(64, 224, 93);
+    color: rgb(25, 31, 31);
+    border-radius: 10px 0 10px 0;
+   
+
+}

@@ -1,0 +1,27 @@
+div.divEl{
+    background-color: sandybrown;
+    height: 100px;
+    text-align: center;
+    
+}
+
+span.spanEl{
+background-color: violet;
+
+}
+
+div.divBlock{
+    background-color: royalblue;
+    height: 100px;
+}
+
+div.divBlock p.pEl{
+    background-color: orangered;
+    width: 100px;
+    /* margin-right: auto;
+    margin-left: auto; */
+
+  /*   margin: 0 auto; */
+
+  margin:0 auto 0 auto;
+}

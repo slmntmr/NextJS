@@ -1,0 +1,58 @@
+h1.title {
+  color: blue;
+  background-color: violet;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+p.about::first-letter {
+  font-size: 3.4rem;
+  color: red;
+}
+
+p.about::first-line {
+  font-size: 1.5rem;
+  color: seagreen;
+}
+
+p.about::selection {
+  color: rgb(244, 234, 234);
+  background-color: violet;
+}
+
+
+
+ul.list li::marker{
+    color: red;
+    font-size: 2rem;
+}
+
+h1.title::before{
+    content: "🐤";
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+h1.title::after{
+    content: "🐓";
+    margin-left:1rem;
+}
+ 
+span.spanEl::before{
+    content:"||";
+    font-size: 2rem;
+    font-weight: 900;
+    color: violet;
+    
+
+}
+ 
+span.spanEl::after{
+    content:"||";
+    font-size: 2rem;
+    font-weight: 900;
+    color: violet;
+    
+
+}

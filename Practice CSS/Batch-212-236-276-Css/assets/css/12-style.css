@@ -1,0 +1,29 @@
+a:link {
+  color: goldenrod;
+  font-size: 1.4rem;
+}
+
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: rgb(236, 243, 236);
+  background-color: crimson;
+  cursor: pointer;
+}
+
+h1.title {
+  color: blue;
+  text-align: center;
+}
+
+h1.title:hover {
+  color: red;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+a:active {
+  color: rgb(165, 37, 101);
+}

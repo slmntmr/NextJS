@@ -1,0 +1,26 @@
+nav.menu {
+  background-color: yellow;
+  width: 300px;
+  text-align: center;
+  color: steelblue;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  cursor: pointer;
+}
+
+h1.title {
+  color: purple;
+  text-align: center;
+}
+
+
+nav.menu div.active{
+background-color: aqua;
+color: violet;
+}
+
+
+/* div.active{
+    background-color: rgb(255, 132, 0);
+    color: rgb(44, 71, 51);
+    } */

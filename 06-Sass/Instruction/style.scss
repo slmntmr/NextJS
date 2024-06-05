@@ -1,0 +1,21 @@
+nav{
+    background-color: gray;
+    color: blue;
+    padding:20px;
+
+    ul{
+        margin:0;
+        padding: 0;
+        list-style: none;
+        line-height: 25px;
+
+        a{
+            text-decoration: none;
+            color:greenyellow       }
+    }
+
+
+    .yellow{
+        color: yellow;
+    }
+}

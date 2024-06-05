@@ -1,0 +1,32 @@
+/*! ">"  ===>  parentin tum childlerini  secer  */
+div.box>p{
+    color: rgb(255, 34, 0);
+    background-color: turquoise;
+}
+
+
+
+ul.list ol> li{
+    color: red;
+    background-color: violet;
+}
+
+/*! "+" işareti kullanılarak bir element ten hemen sonra gelen ilk elemeni seçer.  */
+
+
+
+ div.box + a{
+    color: rgb(19, 128, 30);
+    font-size: 2rem;
+ }
+
+ a.link + p{
+    background-color: aqua;
+ }
+
+ /*!  ~ (tilt) işareti kullanılarak bir element ten hemen sonra gelen tum(belirtilen) elementleri seçer
+ */
+ div.box ~ a{
+    color: purple;
+    font-weight: 900;
+ } 

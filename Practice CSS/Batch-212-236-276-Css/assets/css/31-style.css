@@ -1,0 +1,42 @@
+div.container{
+  
+    display: flex;
+    flex-direction:column;
+    justify-content:center; /*! default flex-start */
+    /* justify-content:flex-start;
+    justify-content:flex-end  
+    justify-content:space-between
+    justify-content:space-around
+
+    */
+     height: 100vh;
+    align-items:center;/*! default strech */
+   
+
+
+
+   
+}
+
+.container div{
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+div.container div:nth-child(1){
+    background-color: rgb(30, 255, 0);
+}
+
+div.container div:nth-child(2){
+    background-color: rgb(0, 85, 255);
+}
+div.container div:nth-child(3){
+    background-color: rgb(255, 0, 247);
+}
+div.container div:nth-child(4){
+    background-color: rgb(242, 114, 29);
+}
+div.container div:nth-child(5){
+    background-color: red;
+}

@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #FFEBB2;
+    --secondary-color: #E9A89B;
+    --border-color:#D875C7;
+    --hover-color: #912BBC;
+    --widthEL: 150px;
+    --heightEl: 150px;
+    --fontFamily: "Lato", sans-serif;
+
+}
+
+h1.title{
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--border-color);
+    font-family: var(--fontFamily);
+}
+
+
+button{
+    background-color: var(--primary-color);
+    width: var(--widthEL);
+    height: var(--heightEl);
+    margin-top: 2rem;
+    cursor: pointer;
+}

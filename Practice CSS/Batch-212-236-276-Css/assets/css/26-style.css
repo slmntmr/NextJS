@@ -1,0 +1,53 @@
+:root {
+  --color1: #1c3879;
+  --color2: #607eaa;
+  --color3: #eae3d2;
+  --color4: #b121b1;
+}
+
+nav.menu{
+    background-color: var(--color4);
+    text-align: center;
+}
+
+nav.menu ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav.menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav.menu ul li::after{
+    content: " | ";
+    color: var(--color3);
+    font-size: 1.1rem;
+   
+    
+}
+
+nav.menu ul li:last-child::after{
+    content: "➡️";
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+nav.menu ul li:first-child::before{
+    content: "⬅️";
+    font-size: 1.3rem;
+    margin-right:1rem;
+}
+
+nav.menu ul a{
+    text-decoration: none;
+    color: var(--color1);
+    padding: 8px;
+    font-size: 1.5rem;
+}
+
+nav.menu a:hover{
+    background-color: var(--color3);
+    color: var(--color2);
+    border-radius: 0 5px 0 5px;
+}

@@ -1,0 +1,62 @@
+/* body {
+  background-image: url("../img/gunesin_dogusu_ve_batisi.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+
+  background-size: 100px;
+} */
+body{
+  background-image: url(../img/gunesin_dogusu_ve_batisi.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+/* .banner-1 {
+  background-image: url("../img/bg.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 360px;
+} */
+.banner-1{
+  background-image: url(../img/gunesin_dogusu_ve_batisi.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: aliceblue;
+}
+
+/* .banner-2 {
+  height: 50vh;
+  background-image: url("../img/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: aliceblue;
+  font-size: 1.2rem;
+ font-weight: 600; 
+ text-align: justify;
+
+
+} */
+.banner-2 {
+  background-image: url(../img/nature.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}

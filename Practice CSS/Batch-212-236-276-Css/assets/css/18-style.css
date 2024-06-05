@@ -1,0 +1,42 @@
+*{
+    color: red;
+}
+
+
+h1.title{
+    color: purple;
+}
+
+.title{
+    color: green;
+}
+
+
+h1{
+    color: blue;
+    text-align: center;
+    border: 5px red solid ;
+}
+
+p.p-1El{
+color: aqua!important;
+
+}
+
+
+h2{
+    background-color: rgb(13, 255, 0)!important;
+}
+
+.linkHover{
+    background-color: yellow;
+    font-size: 4rem;
+    
+}
+.linkHover:hover{
+    background-color: violet;
+}
+
+.linkHover:active{
+    color: springgreen;
+}

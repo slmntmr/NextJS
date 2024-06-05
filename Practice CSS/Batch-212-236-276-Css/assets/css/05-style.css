@@ -1,0 +1,18 @@
+h1{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+p{
+    color: rgb(173, 107, 201);
+    background-color: rgb(99, 197, 219);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: tomato;
+    background-color: rgb(4, 0, 255);
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+@use "./variables" as v;
+@use "./mixins" as m;
+
+body {
+	font-family: v.$primary-font, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.btn-base {
+	background-image: linear-gradient(90deg, v.$color2, v.$color6);
+	border: 2px dotted v.$color4;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 1.1rem;
+	color: v.$color1;
+	@include m.border-radius(30px);
+
+	&:hover {
+		background-image: linear-gradient(90deg, v.$color6, v.$color2);
+		color: v.$color5;
+	}
+}

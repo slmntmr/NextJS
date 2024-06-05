@@ -1,0 +1,50 @@
+/* .bg {
+  padding: 50px;
+  margin: 50px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+} */
+.bg{
+    padding: 50px;
+    margin: 50px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+/* 
+.bg-1 {
+  background-image: linear-gradient(yellow, rgb(200, 53, 200),rgb(91, 196, 91),rgb(198, 87, 87));
+} */
+.bg-1{
+    background-image: linear-gradient(yellow,red,green);
+}
+/* .bg-2{
+    background-image: linear-gradient(to right,blue,white,red,yellow) ;
+} */
+.bg-2{
+    background-image: linear-gradient(blue,pink,magenta);
+}
+/* .bg-3{
+    background-image: linear-gradient(45deg,rgb(33, 175, 20),rgb(21, 4, 4),rgb(0, 145, 255),yellow) ;
+} */
+.bg-3{
+    background-image: linear-gradient(gold,red,aqua);
+}
+/* .bg-4{
+    background-image: linear-gradient(to bottom,pink 30%,cyan,magenta ,gold 92%);
+} */
+.bg-5{
+    background-image: radial-gradient(circle,red,blue,green);
+
+}
+
+.bg-6{
+    background-image: radial-gradient(ellipse,royalblue,pink,purple,violet,rgb(58, 54, 54));
+}
+
+.bg-7{
+    background-image: radial-gradient(circle,blue 15%,green 21%,yellow,red);
+}
+
+.bg-8{
+    background-image: linear-gradient( 89.9deg,  rgba(255,243,110,1) 16.9%, rgba(30,204,214,1) 55.1%, rgba(5,54,154,1) 90.7% );
+}
