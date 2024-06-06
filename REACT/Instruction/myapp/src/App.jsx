@@ -28,6 +28,8 @@ import Shop from "./components/13-shop";
 import State from "./components/14-state/state";
 import Stateless from "./components/14-state/stateless";
 import Counter from "./components/15-counter/counter";
+import Employes from "./components/02-jsx/my-jsx/my-jsx2";
+import Fragment from "./components/02-jsx/my-jsx/3-fragment"
 
 const App = () => {
 	return (
@@ -72,9 +74,14 @@ const App = () => {
       <State/>
  <Counter/>
  helloReactPractise
-      */}
+<Employes />
 
-<Style1/>
+
+
+      */}
+<Fragment/>
+
+
 
 
 
