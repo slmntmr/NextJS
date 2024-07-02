@@ -3,10 +3,18 @@ import Link from "next/link";
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import menu from "@/helpers/data/main-menu.json";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+	const pathname = usePathname();
+
 	return (
-		<Navbar expand="lg" className="bg-dark" data-bs-theme="dark" collapseOnSelect>
+		<Navbar
+			expand="lg"
+			className="bg-dark"
+			data-bs-theme="dark"
+			collapseOnSelect
+		>
 			<Container>
 				<Navbar.Brand href="/" as={Link}>
 					Cosmo Shop
@@ -20,6 +28,7 @@ const Header = () => {
 								href={item.url}
 								as={Link}
 								prefetch={item.prefecth}
+								className={pathname === item.url ? "active" : ""}
 							>
 								{item.title}
 							</Nav.Link>
@@ -27,9 +36,6 @@ const Header = () => {
 					</Nav>
 					<Link href="/dashboard">Dashboard</Link>
 				</Navbar.Collapse>
-
-				
-
 			</Container>
 		</Navbar>
 	);

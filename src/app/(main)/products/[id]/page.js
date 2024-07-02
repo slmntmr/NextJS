@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 
-const Page = ({params}) => {
-console.log("PARAMS", params.id)
+const Page = ({ params, searchParams }) => {
+	console.log("PARAMS", params.id);
+	console.log("CATID=", searchParams.catid);
 
-  return (
-    <div>Product Details Page</div>
-  )
-}
+	return <div>Product Details Page  <Product catId={searchParams.catid}/></div>;
+};
 
-export default Page
+export default Page;
