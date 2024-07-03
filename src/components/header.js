@@ -4,6 +4,8 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import menu from "@/helpers/data/main-menu.json";
 import { usePathname } from "next/navigation";
+import logo from "../../public/images/logo.png"
+import Image from "next/image";
 
 const Header = () => {
 	const pathname = usePathname();
@@ -17,7 +19,7 @@ const Header = () => {
 		>
 			<Container>
 				<Navbar.Brand href="/" as={Link}>
-					Cosmo Shop
+					<Image src={logo} alt="Cosmo Shop"/>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
